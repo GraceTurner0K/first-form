@@ -1,7 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     background-color: teal;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .form {
       background-color: white;
+}
+
+.btn {
+    background-color:#3dd28d;
+    /* border: 1px solid #3dd28d; */
+    position: relative;
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    color:white;
+    font-size: 1rem;
+    margin: 18px;
+    padding: 20px 18px;
+    box-shadow: 0 8px #209b62;
+    text-transform:uppercase;
+}
+
+.btn:hover {
+    box-shadow: 0 5px #209b62;
+    cursor: pointer;
+    top: 3px;
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px;
 }
